@@ -1,0 +1,95 @@
+APLEX PUNCH/
+├── index.html  <----(ye-Home-page-h)
+├── services.html  <----(ye-services-ka-page-h)
+├── about.html  <----(ye-about-ka-page-h)
+├── contact.html  <----(ye-contact-ka-page-h)
+├── portfolio.html  <----(ye-portfolio-ka-page-h)
+├── afqs.html  <----(ye-FAQs-ka-paga-h)
+├── README.txt  <----()
+├── Web-Stucture  <----(is-page-main-sara-stucture-h)
+├── script.js  <----(is-file-main--ki-JS-h)
+├── header.js  <----(is-file-main-header-ki-JS-h)
+|
+├── style.css  <----(is-main-har-pages-ki-Css-h)
+|
+├── all.js/  <----(ye-folder-h-sari-JavaScript-ka)
+│   ├── script2.js  <----(is-file-main--ki-JS-h)
+│   ├── script3.js  <----(is-file-main-Pricing-section-ki-JS-h)
+│   ├── script4.js  <----(is-file-main-Experience-section-ki-JS-h)
+│   ├── script5.js  <----(is-file-main--ki-JS-h)
+│   ├── script6.js  <----(is-file-main--ki-JS-h)
+│   ├── script7.js  <----(is-file-main-Why Choose Us-section-ki-JS-h)
+│   ├── script8.js  <----(is-file-main-Cursor-ki-JS-h)
+│   ├── script9.js  <----(is-file-main-loading-k-section-ki-JS-h)
+│   ├── script10.js  <----(is-file-main--ki-JS-h)
+│   ├── script11.js  <----(is-file-main-form-k-cection-ki-JS-h)
+│   ├── script12.js  <----(is-file-main-Our-work-section-ki-JS-h)
+│   ├── script13.js  <----(is-file-main--ki-JS-h)
+│   └── script14.js  <----(is-file-main--ki-JS-h)
+|
+└assets/
+│   ├── BACKGROUND.png
+│    ├── All pages images.jpeg
+│   ├── Aplex-Punch-logo.png
+│    ├── LOGO 1.png
+│    ├── LOGO 1 MOBILE.png
+│    ├── checkmark.png
+│    ├── coral.png
+│    ├── customer.png
+│    ├── design-shop.png
+│    ├── dolar-icon.png
+│    ├── headphones.png
+│    ├── illustrator.png
+│    ├── photoshop.png
+│    ├── pulas.png
+│    ├── truegizer.png
+│    ├── turegizer2.png
+│    ├── wilcom.png
+│    ├── wilcom2.png
+│    ├── vector-icon.png
+│    ├── loading-logo.png
+│    ├── pexels-fauxels-3184431.jpg
+│    ├── about-image.jpg
+│   ├── about-image2.jpg
+│    ├── About-.avif
+│    ├── About-image.avif
+│    ├── About-image2.avif
+│    ├── About.avif
+│    ├── digitizing-icon.png
+│    ├── patches-icon.png
+│    ├── services-digitizing-image.png
+│    ├── services-patches-image.png
+│    ├── services-vector-image.png
+│    |
+├──Projects/ 
+    ├── AXELAIR LOGO.jpg
+    ├── BADGE LOGO.jpg
+    ├── BEAR.jpg
+    ├── CAR LOGO.jpg
+    ├── CAR.jpg
+    ├── CHICKEN LOGO.jpg
+    ├── DOG LOGO.jpg
+    ├── DRAGONBALLZ LOGO.jpg
+    ├── EVEREST LOGO.jpg
+    ├── HORSE LOGO.jpg
+    ├── KINGKONG LOGO.jpg
+    ├── SKULL LOGO.jpg
+    ├── WARRANT LOGO.jpg
+    ├── WARRANT LOGO (1).jpg
+    ├── A P LOGO (3).png
+    ├── LINE ART.jpg
+    ├── MEN.jpg
+    ├── ONE OLOR BADGE.jpg
+    ├── OUTDOOR LOGO.jpg
+    ├── digitizing-project1.jpg
+    ├── digitizing-project2.jpg
+    ├── digitizing-project3.jpg
+    ├── digitizing-project4.jpg
+    ├── leather-patch-1.jpg
+    ├── leather-patch-gallery-2 (1).jpg
+    ├── leather-patch-gallery-3 (1).jpg
+    ├── leather-patch-gallery-3.png
+    ├── leather-patch-gallery-22.png
+    ├── leather-patch-gallery-2333.jpeg
+    ├── leather-patch-gallery-2333.png
+    └── leather-patch-gallery-23334.jpeg

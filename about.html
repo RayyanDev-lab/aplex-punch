@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <link rel="canonical" href="https://aplexpunch.com/" />
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Aplex Punch">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About | Aplex Punch - Vector Art & Digitizing</title>
+  <meta name="description" content="About — APLEX PUNCH" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/loading-logo.png">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Aplex Punch",
+  "url": "https://aplexpunch.com",
+  "logo": "https://aplexpunch.com/images/logo.png"
+}
+</script>
+</head>
+
+<body>
+  <!-- Modern Floating Email Button -->
+  <a href="mailto:aplexpunch@gmail.com" class="email-bubble-btn" aria-label="Send Email">
+    <svg viewBox="0 0 24 24" width="27" height="27" aria-hidden="true">
+      <path fill="currentColor"
+        d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+  </a>
+  <style>
+    .email-bubble-btn {
+      position: fixed;
+      right: 24px;
+      bottom: 24px;
+      width: 62px;
+      height: 62px;
+      background: linear-gradient(135deg, #0d6efd, #4a8bff);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-decoration: none;
+      z-index: 9999;
+      cursor: pointer;
+
+      /* Smooth animations */
+      animation: floatAnim 3s ease-in-out infinite,
+        glowAnim 4s ease-in-out infinite;
+
+      transition: 0.35s ease;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    @keyframes floatAnim {
+
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-6px);
+      }
+    }
+
+    @keyframes glowAnim {
+
+      0%,
+      100% {
+        box-shadow: 0 8px 20px rgba(13, 110, 253, 0.35);
+      }
+
+      50% {
+        box-shadow: 0 12px 28px rgba(13, 110, 253, 0.55);
+      }
+    }
+
+    .email-bubble-btn:hover {
+      transform: translateY(-10px) scale(1.15) rotate(-6deg);
+      background: linear-gradient(135deg, #3e8cff, #005ae0);
+      box-shadow: 0 14px 35px rgba(0, 0, 0, 0.35);
+    }
+
+    .email-bubble-btn::after {
+      content: "";
+      position: absolute;
+      width: 95px;
+      height: 95px;
+      border-radius: 50%;
+      background: rgba(13, 110, 253, 0.18);
+      animation: pulseRing 3s infinite ease-out;
+      z-index: -1;
+    }
+
+    @keyframes pulseRing {
+      0% {
+        transform: scale(0.7);
+        opacity: 0.6;
+      }
+
+      70% {
+        transform: scale(1.5);
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    .email-bubble-btn:active::before {
+      content: "";
+      position: absolute;
+      width: 140%;
+      height: 140%;
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: 50%;
+      animation: clickRipple .4s ease-out;
+    }
+
+    @keyframes clickRipple {
+      from {
+        transform: scale(0);
+        opacity: .6;
+      }
+
+      to {
+        transform: scale(1);
+        opacity: 0;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .email-bubble-btn {
+        width: 52px;
+        height: 52px;
+        right: 15px;
+        bottom: 15px;
+      }
+
+      .email-bubble-btn::after {
+        width: 75px;
+        height: 75px;
+      }
+    }
+  </style>
+  <!-- Loader -->
+  <div id="loader">
+    <div class="loader-circle">
+      <div class="outer-ring"></div>
+      <div class="inner-circle">
+        <img src="assets/loading-logo.png" alt="Vision Punch Logo">
+      </div>
+    </div>
+  </div>
+  <script src="all.js/script9.js"></script>
+  <!-- cursor-section -->
+  <div class="custom-cursor"></div>
+  <div class="cursor-trail"></div>
+  <script src="all.js/script8.js"></script>
+  <!-- header-section -->
+  <header class="header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo">
+        <img src="Aplex-Punch-logo.png" alt="Aplex Punch Logo" height="52" width="235">
+      </a>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-item">Home</a></li>
+          <li><a href="portfolio.html" class="nav-item">Portfolio</a></li>
+          <li><a href="services.html" class="nav-item">Services</a></li>
+          <li><a href="about.html" class="nav-item">About</a></li>
+          <!-- ⭐ NEW AFQs PAGE LINK ADDED ⭐ -->
+          <li><a href="afqs.html" class="nav-item">FAQS</a></li>
+          <li><a href="contact.html" class="btn-primary">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="menu-btn" id="menuBtn" aria-label="Toggle Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+  <script src="header.js"></script><br><br>
+  <br>
+  <style>
+    .hero-services {
+      position: relative;
+      width: 100%;
+      height: 420px;
+      background: url("All pages images.jpeg") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      font-family: "Poppins", sans-serif;
+      /* New clean font */
+    }
+
+    /* Darker + less spacing around image */
+    .hero-services::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: inherit;
+      background-size: cover;
+      filter: brightness(0.55) blur(1.5px);
+      /* Dark + slight blur */
+      transform: scale(1.12);
+      /* Removes gaps around edges */
+      z-index: 1;
+    }
+
+    /* Stronger overlay for better text readability */
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.50);
+      z-index: 2;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 3;
+      text-align: center;
+      max-width: 900px;
+      padding: 0 20px;
+    }
+
+    .hero-title {
+      font-size: clamp(2.5rem, 4vw, 4rem);
+      font-weight: 800;
+      color: white;
+      text-shadow: 0 3px 8px rgba(0, 0, 0, 0.45);
+      font-family: "Montserrat", sans-serif;
+      /* Changed heading font */
+    }
+
+    .hero-title span {
+      background: none;
+      /* Background ki zaroorat nahi */
+      color: #017AFF;
+      /* Simple blue text color */
+    }
+
+    .hero-desc {
+      color: #e7ecf2;
+      margin-top: 20px;
+      font-size: clamp(1rem, 2vw, 1.3rem);
+      line-height: 1.65;
+      font-family: "Poppins", sans-serif;
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.45);
+    }
+  </style>
+  <section class="hero-services">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <h1 class="hero-title">
+        About <span>Us</span>
+      </h1>
+      <h2 class="hero-desc">
+        Learn more about us and what we do. We work with focus and dedication to give you the best results.
+      </h2>
+    </div>
+  </section>
+  <br><br>
+  <main class="about-area">
+    <div class="about-container">
+      <!-- LEFT TEXT -->
+      <div class="about-content">
+        <div class="accent-bar"></div>
+        <h2 class="about-heading">About Us</h2>
+        <h3 class="about-subtitle">To provide the best Digitizing and Vector Art Service.</h3>
+        <p class="about-desc">
+          Aplex Punch has been a trusted name in raster to vector conversion and custom patch design for more than 12
+          years. We combine technical expertise with creative precision to produce artwork that meets professional
+          embroidery and printing standards. Our team is dedicated to turning every image into clean, production-ready
+          designs that enhance brand identity and visual appeal. With a strong focus on quality, consistency, and timely
+          delivery, Aplex Punch continues to serve clients worldwide who value reliability and craftsmanship
+          in every project.
+        </p>
+        <!-- STATS BLOCK -->
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-box">
+              <span class="stat-value" id="experience-number">12<span class="plus"></span></span>
+            </div>
+          </div>
+          <div class="stat-info">
+            <div class="line">Years</div>
+            <div class="line">Working</div>
+            <div class="line">Experience</div>
+          </div>
+        </div>
+      </div>
+      <!-- RIGHT IMAGE -->
+      <div class="about-image">
+        <div class="image-box">
+          <img class="image-main" src="About-image.avif" alt="Team working together" />
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="all.js/script6.js"></script>
+  <br><br>
+  <div class="about-main-section">
+    <section class="achieving-section">
+      <!-- Left Image Section -->
+      <div class="image-section">
+        <img src="assets/about-image2.jpg" alt="Digitizing Illustration" />
+      </div>
+      <!-- Right Text Section -->
+      <div class="text-section">
+        <h1>Achieving Excellence in the Art & Stich of Design</h1>
+        <p class="intro">
+          Transforming ideas into precise vector and digitizing solutions, crafted for excellence.
+        </p>
+        <h2>Aplex Punch - Get To know Us</h2>
+        <p>
+          Aplex Punch is a creative design company dedicated to delivering excellence through skill, precision, and
+          innovation. With years of professional experience, we specialize in transforming ideas into visually refined,
+          production-ready artwork. Our team focuses on accuracy, consistency, and timeless quality to ensure every
+          project meets the highest standards. At Aplex Punch, we don’t just complete designs — we craft results that
+          build trust and reflect perfection in every detail.
+        </p>
+      </div>
+    </section>
+  </div>
+  <section class="xp-section">
+    <div class="xp-container">
+      <div class="xp-header fade-in">
+        <h1>Our Experience</h1>
+        <div class="xp-divider"></div>
+        <p>With years of industry experience and thousands of satisfied clients, we've established ourselves as leaders
+          in Digitizing & Vector Art services.</p>
+      </div>
+      <div class="xp-stats-grid">
+        <div class="xp-stat-card fade-in">
+          <span class="xp-stat-number counter" data-target="12">0</span>
+          <h3 class="xp-stat-title">Years Experience</h3>
+          <p class="xp-stat-description">More than a decade of excellence in the Digitizing & Vector Art industry</p>
+        </div>
+        <div class="xp-stat-card fade-in">
+          <span class="xp-stat-number counter" data-target="35000">0</span>
+          <h3 class="xp-stat-title">Projects Completed</h3>
+          <p class="xp-stat-description">Successfully delivered thousands of Digitizing & Vector Art projects worldwide
+          </p>
+        </div>
+        <div class="xp-stat-card fade-in">
+          <span class="xp-stat-number counter" data-target="2500">0</span>
+          <h3 class="xp-stat-title">Happy Clients</h3>
+          <p class="xp-stat-description">Building lasting relationships with clients who trust us with their projects
+          </p>
+        </div>
+        <div class="xp-stat-card fade-in">
+          <span class="xp-stat-number counter" data-target="43">0</span>
+          <h3 class="xp-stat-title">Countries Served</h3>
+          <p class="xp-stat-description">Providing our expert Digitizing & Vector Art services to clients across the
+            globe</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="all.js/script4.js"></script>
+  <div class="work">
+    <section class="xray-section-container">
+      <div class="xray-grid-wrap">
+        <div class="xray-image-box">
+          <div class="xray-image-bg"></div>
+          <img src="assets/about-image.jpg" alt="Dedicated Team" class="xray-main-image">
+        </div>
+        <div class="xray-text-box">
+          <h1 class="xray-mini-title">HOW WE WORK</h><br>
+            <h3 class="xray-main-title">Work With A <br> Dedicated Team</h3>
+            <p class="xray-desc">
+              We’re constantly striving to deliver the best, most efficient service. Our team of 12+ talented,
+              award-winning digitizers and vector artists is dedicated to turning your Foresight into reality.
+            </p>
+            <!-- <div class="xray-play-btn-box">
+          <div class="xray-play-circle">
+            <div class="xray-play-icon">&#9658;</div>
+          </div>
+          <span class="xray-play-text">SEE HOW WE WORK</span>
+        </div> -->
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="all.js/script14.js"></script>
+  <!-- <br><br><br> -->
+  <style>
+    :root {
+      --c1: #0d5abd;
+      --c2: #0078ff;
+      --c3: #1659d8;
+      --c4: #678bc4;
+      --c5: #0b1f6a;
+      --c6: #0c3e9c;
+      --c7: #0d1d8a;
+      --c8: #2e4580;
+      --c9: #9bb6e3;
+
+      --radius-xl: 28px;
+      --radius-lg: 18px;
+      --radius-md: 12px;
+
+      --shadow-soft: 0 10px 30px rgba(13, 90, 189, 0.12);
+      --shadow-hover: 0 16px 40px rgba(0, 120, 255, 0.22);
+
+      --transition-main: all .35s cubic-bezier(0.2, 0.6, 0.2, 1);
+    }
+
+    .bg-page {
+      background: linear-gradient(135deg, #f4f7ff 0%, #eef3ff 100%);
+      font-family: "Inter", sans-serif;
+      color: #0f172a;
+      overscroll-behavior: none;
+    }
+
+    .section-title {
+      font-weight: 900;
+      font-size: clamp(2rem, 4vw, 3rem);
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      background: linear-gradient(90deg, var(--c2) 0%, var(--c4) 70%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      /* NEW FIX */
+      -webkit-text-fill-color: transparent;
+      /* REQUIRED */
+      color: transparent;
+    }
+
+    .title-underline {
+      height: 6px;
+      width: 110px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, var(--c2), var(--c9));
+      box-shadow: 0 0 15px rgba(0, 120, 255, 0.35);
+    }
+
+    .software-section {
+      padding: 5rem 0;
+      background: white;
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-soft);
+      transition: var(--transition-main);
+    }
+
+    .software-section:hover {
+      box-shadow: var(--shadow-hover);
+      transform: translateY(-3px);
+    }
+
+    .logo-marquee {
+      overflow: hidden;
+      width: 100%;
+      padding: 20px 0;
+    }
+
+    .logo-track {
+      display: flex;
+      gap: 100px;
+      width: max-content;
+      animation: scroll-left 30s linear infinite;
+    }
+
+    .logo-item {
+      height: 90px;
+      filter: grayscale(100%) contrast(0.85) brightness(0.92);
+      transition: var(--transition-main);
+      opacity: 0.85;
+    }
+
+    .logo-item:hover {
+      filter: grayscale(0%);
+      transform: scale(1.12) translateY(-4px);
+      opacity: 1;
+    }
+
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(0);
+      }
+
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+  </style>
+  <div class="bg-page">
+    <main class="w-full min-h-screen flex flex-col items-center justify-start py-16">
+      <section class="software-section w-full px-6">
+        <center>
+          <h2 class="section-title">Software We Use</h2>
+        </center>
+        <div class="mt-6 flex items-center justify-center">
+          <div class="w-6 h-1 rounded-full bg-red-500 mr-3"></div>
+          <center>
+            <div class="title-underline"></div>
+          </center>
+        </div>
+        <div class="logo-marquee mt-12">
+          <div class="logo-track">
+            <img class="logo-item" src="assets/wilcom.png" />
+            <img class="logo-item" src="assets/illustrator.png" />
+            <img class="logo-item" src="assets/pulas.png" />
+            <img class="logo-item" src="assets/design-shop.png" />
+            <img class="logo-item" src="assets/photoshop.png" />
+            <img class="logo-item" src="assets/truegizer.png" />
+            <img class="logo-item" src="assets/coral.png" />
+            <img class="logo-item" src="assets/wilcom.png" />
+            <img class="logo-item" src="assets/illustrator.png" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <!-- <br><br> -->
+  <!-- footer-section -->
+  <b>
+    <footer class="footer-section">
+      <div class="footer-container">
+        <!-- ===== Column 1: About ===== -->
+        <div class="footer-column about">
+          <h2 class="footer-logo">
+            <img src="A P LOGO (3).png" height="52" width="230" alt="APLEX PUNCH Logo">
+          </h2>
+          <p class="footer-desc">
+            APLEX PUNCH is a leading software house specializing in embroidery digitizing,
+            vector art, and patch designing services. We combine creativity with precision
+            to bring your artwork to life.
+          </p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/share/1Bk4CpHQLk/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/saad_anwar34?igsh=dXJjNmhjNnJtdTVt"><i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a
+              href="https://www.linkedin.com/in/aplex-punch-029210399?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <!-- ===== Column 2: Quick Links ===== -->
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="afqs.html">FAQS</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- ===== Column 3: Services ===== -->
+        <div class="footer-column">
+          <h3>Our Services</h3>
+          <ul>
+            <li><a href="services.html">Embroidery Digitizing</a></li>
+            <li><a href="services.html">Vector Art Conversion</a></li>
+            <li><a href="services.html">Patch Designing</a></li>
+            <li><a href="services.html">Logo Vectorization</a></li>
+            <li><a href="services.html">Custom Artwork</a></li>
+          </ul>
+        </div>
+        <!-- ===== Column 4: Contact Info ===== -->
+        <div class="footer-column contact-info">
+          <h3>Contact Info</h3>
+          <ul>
+            <li><i class="fa-solid fa-location-dot"></i> 3 Pamela Ln, Selden, NY 11784</li>
+            <li><i class="fa-solid fa-phone"></i>702-900-9135 </li>
+            <li><i class="fa-solid fa-envelope"></i> aplexpunch@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <!-- ===== Bottom Bar ===== -->
+      <div class="footer-bottom">
+        <p>© 2025 APLEX PUNCH. All rights reserved.</p>
+        <button id="scrollTopBtn" title="Go to top">↑</button>
+      </div>
+    </footer>
+  </b>
+  <!-- ===== Footer End ===== -->
+  <!-- Font Awesome (for icons) -->
+  <script src="https://kit.fontawesome.com/a2f0e6a36b.js" crossorigin="anonymous"></script>
+  <script src="all.js/"></script>
+  <script src="script.js" defer></script>
+  <script src="all.js/Animation.js"></script>
+</body>
+
+</html>

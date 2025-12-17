@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="canonical" href="https://aplexpunch.com/" />
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Aplex Punch">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio | Aplex Punch - Vector Art & Digitizing</title>
+  <meta name="description" content="Portfolio — APLEX PUNCH" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="project.css">
+  <link rel="icon" type="image/png" href="assets/loading-logo.png">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Aplex Punch",
+  "url": "https://aplexpunch.com",
+  "logo": "https://aplexpunch.com/images/logo.png"
+}
+</script>
+</head>
+
+<body>
+  <!-- Modern Floating Email Button -->
+  <a href="mailto:aplexpunch@gmail.com" class="email-bubble-btn" aria-label="Send Email">
+    <svg viewBox="0 0 24 24" width="27" height="27" aria-hidden="true">
+      <path fill="currentColor"
+        d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+    </svg>
+  </a>
+  <style>
+    .email-bubble-btn {
+      position: fixed;
+      right: 24px;
+      bottom: 24px;
+      width: 62px;
+      height: 62px;
+      background: linear-gradient(135deg, #0d6efd, #4a8bff);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-decoration: none;
+      z-index: 9999;
+      cursor: pointer;
+
+      /* Smooth animations */
+      animation: floatAnim 3s ease-in-out infinite,
+        glowAnim 4s ease-in-out infinite;
+
+      transition: 0.35s ease;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    @keyframes floatAnim {
+
+      0%,
+      100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-6px);
+      }
+    }
+
+    @keyframes glowAnim {
+
+      0%,
+      100% {
+        box-shadow: 0 8px 20px rgba(13, 110, 253, 0.35);
+      }
+
+      50% {
+        box-shadow: 0 12px 28px rgba(13, 110, 253, 0.55);
+      }
+    }
+
+    .email-bubble-btn:hover {
+      transform: translateY(-10px) scale(1.15) rotate(-6deg);
+      background: linear-gradient(135deg, #3e8cff, #005ae0);
+      box-shadow: 0 14px 35px rgba(0, 0, 0, 0.35);
+    }
+
+    .email-bubble-btn::after {
+      content: "";
+      position: absolute;
+      width: 95px;
+      height: 95px;
+      border-radius: 50%;
+      background: rgba(13, 110, 253, 0.18);
+      animation: pulseRing 3s infinite ease-out;
+      z-index: -1;
+    }
+
+    @keyframes pulseRing {
+      0% {
+        transform: scale(0.7);
+        opacity: 0.6;
+      }
+
+      70% {
+        transform: scale(1.5);
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    .email-bubble-btn:active::before {
+      content: "";
+      position: absolute;
+      width: 140%;
+      height: 140%;
+      background: rgba(255, 255, 255, 0.4);
+      border-radius: 50%;
+      animation: clickRipple .4s ease-out;
+    }
+
+    @keyframes clickRipple {
+      from {
+        transform: scale(0);
+        opacity: .6;
+      }
+
+      to {
+        transform: scale(1);
+        opacity: 0;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .email-bubble-btn {
+        width: 52px;
+        height: 52px;
+        right: 15px;
+        bottom: 15px;
+      }
+
+      .email-bubble-btn::after {
+        width: 75px;
+        height: 75px;
+      }
+    }
+  </style>
+  <!-- Loader -->
+  <div id="loader">
+    <div class="loader-circle">
+      <div class="outer-ring"></div>
+      <div class="inner-circle">
+        <img src="assets/loading-logo.png" alt="Vision Punch Logo">
+      </div>
+    </div>
+  </div>
+  <script src="all.js/script9.js"></script>
+  <!-- cursor-section -->
+  <div class="custom-cursor"></div>
+  <div class="cursor-trail"></div>
+  <script src="all.js/script8.js"></script>
+  <!-- header-section -->
+  <header class="header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo">
+        <img src="Aplex-Punch-logo.png" alt="Aplex Punch Logo" height="52" width="235">
+      </a>
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-item">Home</a></li>
+          <li><a href="portfolio.html" class="nav-item">Portfolio</a></li>
+          <li><a href="services.html" class="nav-item">Services</a></li>
+          <li><a href="about.html" class="nav-item">About</a></li>
+          <!-- ⭐ NEW AFQs PAGE LINK ADDED ⭐ -->
+          <li><a href="afqs.html" class="nav-item">FAQS</a></li>
+          <li><a href="contact.html" class="btn-primary">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="menu-btn" id="menuBtn" aria-label="Toggle Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+  <script src="header.js"></script>
+  <br><br><br><br>
+  <style>
+    .hero-services {
+      position: relative;
+      width: 100%;
+      height: 420px;
+      background: url("All pages images.jpeg") center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      font-family: "Poppins", sans-serif;
+      /* New clean font */
+    }
+
+    /* Darker + less spacing around image */
+    .hero-services::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: inherit;
+      background-size: cover;
+      filter: brightness(0.55) blur(1.5px);
+      /* Dark + slight blur */
+      transform: scale(1.12);
+      /* Removes gaps around edges */
+      z-index: 1;
+    }
+
+    /* Stronger overlay for better text readability */
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.50);
+      z-index: 2;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 3;
+      text-align: center;
+      max-width: 900px;
+      padding: 0 20px;
+    }
+
+    .hero-title {
+      font-size: clamp(2.5rem, 4vw, 4rem);
+      font-weight: 800;
+      color: white;
+      text-shadow: 0 3px 8px rgba(0, 0, 0, 0.45);
+      font-family: "Montserrat", sans-serif;
+      /* Changed heading font */
+    }
+
+    .hero-title span {
+      background: none;
+      /* Background ki zaroorat nahi */
+      color: #017AFF;
+      /* Simple blue text color */
+    }
+
+    .hero-desc {
+      color: #e7ecf2;
+      margin-top: 20px;
+      font-size: clamp(1rem, 2vw, 1.3rem);
+      line-height: 1.65;
+      font-family: "Poppins", sans-serif;
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.45);
+    }
+  </style>
+  <section class="hero-services">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">
+        Our <span>Portfolio</span>
+      </h1>
+      <h2 class="hero-desc">
+        Here you can see our work. We have completed many projects with quality and care. Take a look at what we have
+        created.
+      </h2>
+    </div>
+  </section>
+  <br>
+  <br><br><br><br>
+  <div class="rwx-container">
+    <div class="rwx-heading">
+      <h1>Our Work</h1>
+      <p>
+        Browse a curated portfolio of our best embroidery digitizing, vector artwork, and patch designs —
+        crafted with precision and production-ready for every order.
+      </p>
+    </div>
+    <!-- Filters -->
+    <div class="rwx-filters" role="tablist">
+      <button class="rwx-pill" data-filter="digitizing">Digitizing</button>
+      <button class="rwx-pill" data-filter="vector">Vector</button>
+      <button class="rwx-pill" data-filter="patches">Patches</button>
+    </div>
+    <!-- Projects -->
+    <section class="rwx-grid" id="rwx-projects">
+      <!-- Digitizing -->
+      <article class="rwx-card" data-type="digitizing">
+        <div class="rwx-thumb"><img src="Projects/CHICKEN LOGO.jpg" alt="Digitizing Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Digitizing</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="digitizing">
+        <div class="rwx-thumb"><img src="Projects/AXELAIR LOGO.jpg" alt="Digitizing Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Digitizing</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="digitizing">
+        <div class="rwx-thumb"><img src="Projects/SKULL LOGO.jpg" alt="Digitizing Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Digitizing</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="digitizing">
+        <div class="rwx-thumb"><img src="Projects/CAR LOGO.jpg" alt="Digitizing Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Digitizing</div>
+        </div>
+      </article>
+      <!-- Vector -->
+      <article class="rwx-card" data-type="vector">
+        <div class="rwx-thumb"><img src="Projects/HORSE LOGO.jpg" alt="Vector Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Vector Art</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="vector">
+        <div class="rwx-thumb"><img src="Projects/BEAR.jpg" alt="Vector Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Vector Art</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="vector">
+        <div class="rwx-thumb"><img src="Projects/CAR.jpg" alt="Vector Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Vector Art</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="vector">
+        <div class="rwx-thumb"><img src="Projects/LINE ART.jpg" alt="Vector Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Vector Art</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="vector">
+        <div class="rwx-thumb"><img src="Projects/MEN.jpg" alt="Vector Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Vector Art</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="vector">
+        <div class="rwx-thumb"><img src="Projects/BADGE LOGO.jpg" alt="Vector Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Vector Art</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="vector">
+        <div class="rwx-thumb"><img src="Projects/ONE OLOR BADGE.jpg" alt="Vector Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Vector Art</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="vector">
+        <div class="rwx-thumb"><img src="Projects/WARRANT LOGO.jpg" alt="Vector Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Vector Art</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="vector">
+        <div class="rwx-thumb"><img src="Projects/KINGKONG LOGO.jpg" Vector Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Vector Art</div>
+        </div>
+      </article>
+      <!-- Patches -->
+      <article class="rwx-card" data-type="patches">
+        <div class="rwx-thumb"><img src="Projects/leather-patch-gallery-3 (1).jpg" alt="Patch Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Patches</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="patches">
+        <div class="rwx-thumb"><img src="Projects/leather-patch-gallery-2 (1).jpg" alt="Patch Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Patches</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="patches">
+        <div class="rwx-thumb"><img src="Projects/leather-patch-1.jpg" alt="Patch Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Patches</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="patches">
+        <div class="rwx-thumb"><img src="Projects/leather-patch-gallery-22.png" alt="Patch Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Patches</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="patches">
+        <div class="rwx-thumb"><img src="Projects/leather-patch-gallery-3.png" alt="Patch Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div><br><br><br><br><br><br>
+          <div class="rwx-badge">Patches</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="patches">
+        <div class="rwx-thumb"><img src="Projects/leather-patch-gallery-2333.png" alt="Patch Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div><br><br><br>
+          <div class="rwx-badge">Patches</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="patches">
+        <div class="rwx-thumb"><img src="Projects/leather-patch-gallery-2333.jpeg" alt="Patch Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Patches</div>
+        </div>
+      </article>
+      <article class="rwx-card" data-type="patches">
+        <div class="rwx-thumb"><img src="Projects/leather-patch-gallery-23334.jpeg" alt="Patch Sample"></div>
+        <div class="rwx-meta">
+          <div class="rwx-title"></div>
+          <div class="rwx-sub"></div>
+          <div class="rwx-badge">Patches</div>
+        </div>
+      </article>
+    </section>
+  </div>
+  <!-- Lightbox -->
+  <div id="rwx-lightbox" class="rwx-lightbox">
+    <div class="rwx-lightbox-content">
+      <button class="rwx-close-btn" aria-label="Close">✕</button>
+      <img src="" alt="Full view" id="rwx-lightbox-img">
+      <h2 id="rwx-lightbox-title"></h2>
+      <p id="rwx-lightbox-desc"></p>
+    </div>
+  </div>
+  <script src="all.js/script12.js"></script>
+  <br><br>
+  <!-- reviews-section -->
+  <div class="reviews-section">
+    <div class="reviewsWrapper">
+      <div class="reviewsHeader">
+        <h2>What Our Clients Say</h2>
+        <p>Don't just take our word for it. Read testimonials from our satisfied customers.</p>
+      </div>
+      <div class="reviewsGrid">
+        <!-- Review 1 -->
+        <div class="singleReview">
+          <div class="quoteSymbol">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="reviewContent">
+            “Absolutely amazing vector quality — crisp, detailed, and perfectly done. The illustrations scaled
+            flawlessly across devices and retained pixel-perfect sharpness even at very large print sizes. Their
+            attention to anchor points and clean paths saved us hours in production.”
+            — Jessica Park, Creative Director, Loom Studios
+          </p>
+          <div class="reviewAuthor">
+            <div class="authorImage">
+              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson">
+            </div>
+            <div class="authorDetails">
+              <h4>Sarah Johnson</h4>
+              <p>Marketing Director, TechCorp</p>
+              <div class="starRating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Review 2 -->
+        <div class="singleReview">
+          <div class="quoteSymbol">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="reviewContent">
+            “Exceptional precision and clarity in every digitized file.”
+            No jump stitches, no distortion — just clean, organized patterns that run perfectly on multiple machines.
+            The results on caps, polos, and jackets were beyond expectations.
+            — Ravi Mehta, Production Manager, ThreadCraft Embroidery
+          </p>
+          <div class="reviewAuthor">
+            <div class="authorImage">
+              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen">
+            </div>
+            <div class="authorDetails">
+              <h4>Michael Chen</h4>
+              <p>CEO, Innovate Solutions</p>
+              <div class="starRating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Review 3 -->
+        <div class="singleReview">
+          <div class="quoteSymbol">
+            <i class="fas fa-quote-left"></i>
+          </div>
+          <p class="reviewContent">
+            “Best patch quality ever! Looks premium, durable, and perfectly matches my design.”
+            The stitching is dense, clean, and beautifully aligned. Colors pop with rich vibrancy, and the texture feels
+            high-grade — like something straight off a luxury brand jacket.
+            — Nadia Khan, Streetwear Designer, Urban Edge Co.
+          </p>
+          <div class="reviewAuthor">
+            <div class="authorImage">
+              <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emily Rodriguez">
+            </div>
+            <div class="authorDetails">
+              <h4>Emily Rodriguez</h4>
+              <p>Operations Manager, Global Retail</p>
+              <div class="starRating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer-section --> <!-- footer-section -->
+  <b>
+    <footer class="footer-section">
+      <div class="footer-container">
+        <!-- ===== Column 1: About ===== -->
+        <div class="footer-column about">
+          <h2 class="footer-logo">
+            <img src="A P LOGO (3).png" height="52" width="230" alt="APLEX PUNCH Logo">
+          </h2>
+          <p class="footer-desc">
+            APLEX PUNCH is a leading software house specializing in embroidery digitizing,
+            vector art, and patch designing services. We combine creativity with precision
+            to bring your artwork to life.
+          </p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/share/1Bk4CpHQLk/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/saad_anwar34?igsh=dXJjNmhjNnJtdTVt"><i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a
+              href="https://www.linkedin.com/in/aplex-punch-029210399?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i
+                class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <!-- ===== Column 2: Quick Links ===== -->
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="afqs.html">FAQS</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <!-- ===== Column 3: Services ===== -->
+        <div class="footer-column">
+          <h3>Our Services</h3>
+          <ul>
+            <li><a href="services.html">Embroidery Digitizing</a></li>
+            <li><a href="services.html">Vector Art Conversion</a></li>
+            <li><a href="services.html">Patch Designing</a></li>
+            <li><a href="services.html">Logo Vectorization</a></li>
+            <li><a href="services.html">Custom Artwork</a></li>
+          </ul>
+        </div>
+        <!-- ===== Column 4: Contact Info ===== -->
+        <div class="footer-column contact-info">
+          <h3>Contact Info</h3>
+          <ul>
+            <li><i class="fa-solid fa-location-dot"></i> 3 Pamela Ln, Selden, NY 11784</li>
+            <li><i class="fa-solid fa-phone"></i> 702-900-9135</li>
+            <li><i class="fa-solid fa-envelope"></i> aplexpunch@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <!-- ===== Bottom Bar ===== -->
+      <div class="footer-bottom">
+        <p>© 2025 APLEX PUNCH. All rights reserved.</p>
+        <button id="scrollTopBtn" title="Go to top">↑</button>
+      </div>
+    </footer>
+  </b>
+  <!-- ===== Footer End ===== -->
+  <!-- Font Awesome (for icons) -->
+  <script src="https://kit.fontawesome.com/a2f0e6a36b.js" crossorigin="anonymous"></script>
+  <script src="all.js/"></script>
+  <script src="script.js" defer></script>
+  <script src="all.js/Animation.js"></script>
+</body>
+
+</html>

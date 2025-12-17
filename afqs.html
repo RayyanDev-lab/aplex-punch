@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="canonical" href="https://aplexpunch.com/" />
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Aplex Punch">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AFQs | Aplex Punch - Vector Art & Digitizing</title>
+    <meta name="description" content="Services — APLEX PUNCH" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/loading-logo.png">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Aplex Punch",
+  "url": "https://aplexpunch.com",
+  "logo": "https://aplexpunch.com/images/logo.png"
+}
+</script>
+</head>
+
+<body class="theme-light">
+    <!-- Modern Floating Email Button -->
+    <a href="mailto:aplexpunch@gmail.com" class="email-bubble-btn" aria-label="Send Email">
+        <svg viewBox="0 0 24 24" width="27" height="27" aria-hidden="true">
+            <path fill="currentColor"
+                d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
+        </svg>
+    </a>
+    <style>
+        .email-bubble-btn {
+            position: fixed;
+            right: 24px;
+            bottom: 24px;
+            width: 62px;
+            height: 62px;
+            background: linear-gradient(135deg, #0d6efd, #4a8bff);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-decoration: none;
+            z-index: 9999;
+            cursor: pointer;
+
+            /* Smooth animations */
+            animation: floatAnim 3s ease-in-out infinite,
+                glowAnim 4s ease-in-out infinite;
+
+            transition: 0.35s ease;
+            overflow: hidden;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+        }
+
+        @keyframes floatAnim {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-6px);
+            }
+        }
+
+        @keyframes glowAnim {
+
+            0%,
+            100% {
+                box-shadow: 0 8px 20px rgba(13, 110, 253, 0.35);
+            }
+
+            50% {
+                box-shadow: 0 12px 28px rgba(13, 110, 253, 0.55);
+            }
+        }
+
+        .email-bubble-btn:hover {
+            transform: translateY(-10px) scale(1.15) rotate(-6deg);
+            background: linear-gradient(135deg, #3e8cff, #005ae0);
+            box-shadow: 0 14px 35px rgba(0, 0, 0, 0.35);
+        }
+
+        .email-bubble-btn::after {
+            content: "";
+            position: absolute;
+            width: 95px;
+            height: 95px;
+            border-radius: 50%;
+            background: rgba(13, 110, 253, 0.18);
+            animation: pulseRing 3s infinite ease-out;
+            z-index: -1;
+        }
+
+        @keyframes pulseRing {
+            0% {
+                transform: scale(0.7);
+                opacity: 0.6;
+            }
+
+            70% {
+                transform: scale(1.5);
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .email-bubble-btn:active::before {
+            content: "";
+            position: absolute;
+            width: 140%;
+            height: 140%;
+            background: rgba(255, 255, 255, 0.4);
+            border-radius: 50%;
+            animation: clickRipple .4s ease-out;
+        }
+
+        @keyframes clickRipple {
+            from {
+                transform: scale(0);
+                opacity: .6;
+            }
+
+            to {
+                transform: scale(1);
+                opacity: 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .email-bubble-btn {
+                width: 52px;
+                height: 52px;
+                right: 15px;
+                bottom: 15px;
+            }
+
+            .email-bubble-btn::after {
+                width: 75px;
+                height: 75px;
+            }
+        }
+    </style>
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <div id="loader">
+            <div class="loader-circle">
+                <div class="outer-ring"></div>
+                <div class="inner-circle">
+                    <img src="assets/loading-logo.png" alt="Vision Punch Logo">
+                </div>
+            </div>
+        </div>
+        <script src="all.js/script9.js"></script>
+        <!-- cursor-section -->
+        <div class="custom-cursor"></div>
+        <div class="cursor-trail"></div>
+        <script src="all.js/script8.js"></script>
+        <!-- header-section -->
+        <header class="header">
+            <div class="container nav-wrapper">
+                <a href="index.html" class="logo">
+                    <img src="Aplex-Punch-logo.png" alt="Aplex Punch Logo" height="52" width="235">
+                </a>
+                <nav class="nav">
+                    <ul class="nav-links">
+                        <li><a href="index.html" class="nav-item">Home</a></li>
+                        <li><a href="portfolio.html" class="nav-item">Portfolio</a></li>
+                        <li><a href="services.html" class="nav-item">Services</a></li>
+                        <li><a href="about.html" class="nav-item">About</a></li>
+                        <!-- ⭐ NEW AFQs PAGE LINK ADDED ⭐ -->
+                        <li><a href="afqs.html" class="nav-item">FAQS</a></li>
+                        <li><a href="contact.html" class="btn-primary">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="menu-btn" id="menuBtn" aria-label="Toggle Menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </header>
+        <script src="header.js"></script>
+        <br><br>
+        <style>
+            .hero-services {
+                position: relative;
+                width: 100%;
+                height: 420px;
+                background: url("All pages images.jpeg") center/cover no-repeat;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                font-family: "Poppins", sans-serif;
+                /* New clean font */
+            }
+
+            /* Darker + less spacing around image */
+            .hero-services::before {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background: inherit;
+                background-size: cover;
+                filter: brightness(0.55) blur(1.5px);
+                /* Dark + slight blur */
+                transform: scale(1.12);
+                /* Removes gaps around edges */
+                z-index: 1;
+            }
+
+            /* Stronger overlay for better text readability */
+            .hero-overlay {
+                position: absolute;
+                inset: 0;
+                background: rgba(0, 0, 0, 0.50);
+                z-index: 2;
+            }
+
+            .hero-content {
+                position: relative;
+                z-index: 3;
+                text-align: center;
+                max-width: 900px;
+                padding: 0 20px;
+            }
+
+            .hero-title {
+                font-size: clamp(2.5rem, 4vw, 4rem);
+                font-weight: 800;
+                color: white;
+                text-shadow: 0 3px 8px rgba(0, 0, 0, 0.45);
+                font-family: "Montserrat", sans-serif;
+                /* Changed heading font */
+            }
+
+            .hero-title span {
+                background: none;
+                /* Background ki zaroorat nahi */
+                color: #017AFF;
+                /* Simple blue text color */
+            }
+
+            .hero-desc {
+                color: #e7ecf2;
+                margin-top: 20px;
+                font-size: clamp(1rem, 2vw, 1.3rem);
+                line-height: 1.65;
+                font-family: "Poppins", sans-serif;
+                text-shadow: 0 2px 6px rgba(0, 0, 0, 0.45);
+            }
+        </style>
+        <section class="hero-services">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    FAQ<span>s</span>
+                </h1>
+                <h2 class="hero-desc">
+                    Find answers to common questions about our Vector Art, Digitizing, and Patch services — all crafted
+                    with care, accuracy, and professional expertise.
+                </h2>
+            </div>
+        </section>
+        <!-- afqs-section -->
+        <style>
+            :root {
+                --axp-blue-light: #e8f3ff;
+                --axp-blue-soft: #c9e1ff;
+                --axp-blue-main: #71a9ff;
+                --axp-blue-deep: #356dff;
+                --axp-blue-dark: #1b3f8b;
+                --axp-white: #ffffff;
+                --axp-text-dark: #233044;
+                --axp-text-soft: #5c6575;
+                --axp-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+                --axp-radius: 10px;
+                --axp-transition: 0.3s ease;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .afqs {
+                font-family: 'Segoe UI', sans-serif;
+                line-height: 1.6;
+                background-color: var(--axp-blue-light);
+                color: var(--axp-text-dark);
+            }
+
+            .axp-container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 0 20px;
+            }
+
+            /* HEADER */
+            .axp-header {
+                background: linear-gradient(135deg, var(--axp-blue-main), var(--axp-blue-dark));
+                color: var(--axp-white);
+                padding: 2rem 0;
+                box-shadow: var(--axp-shadow);
+            }
+
+            .axp-header-row {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+
+            .axp-logo {
+                font-size: 1.8rem;
+                font-weight: 700;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+
+            .axp-logo i {
+                font-size: 2rem;
+                color: var(--axp-white);
+            }
+
+            .axp-updated {
+                background: rgba(255, 255, 255, 0.2);
+                padding: 8px 15px;
+                border-radius: 20px;
+                font-size: .9rem;
+            }
+
+            /* PAGE TITLE */
+            .axp-title {
+                text-align: center;
+                margin: 3rem 0;
+                color: var(--axp-blue-dark);
+                position: relative;
+            }
+
+            .axp-title::after {
+                content: "";
+                width: 90px;
+                height: 4px;
+                background: var(--axp-blue-main);
+                position: absolute;
+                left: 50%;
+                bottom: -12px;
+                transform: translateX(-50%);
+                border-radius: 4px;
+            }
+
+            /* FAQ SECTION */
+            .axp-section-title {
+                font-size: 1.6rem;
+                margin-bottom: 1.5rem;
+                color: var(--axp-blue-dark);
+                border-bottom: 3px solid var(--axp-blue-soft);
+                padding-bottom: 10px;
+            }
+
+            .axp-faq-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+                gap: 1.5rem;
+            }
+
+            .axp-faq-box {
+                background: var(--axp-white);
+                border-radius: var(--axp-radius);
+                box-shadow: var(--axp-shadow);
+                border-left: 5px solid var(--axp-blue-main);
+                overflow: hidden;
+                transition: var(--axp-transition);
+            }
+
+            .axp-faq-box:hover {
+                transform: translateY(-6px);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+            }
+
+            .axp-faq-question {
+                padding: 1.5rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                cursor: pointer;
+                font-weight: 600;
+                transition: var(--axp-transition);
+            }
+
+            .axp-faq-question:hover {
+                background: var(--axp-blue-light);
+            }
+
+            .axp-faq-question i {
+                color: var(--axp-blue-main);
+                transition: var(--axp-transition);
+            }
+
+            .axp-faq-box.active .axp-faq-question i {
+                transform: rotate(180deg);
+            }
+
+            .axp-faq-answer {
+                max-height: 0;
+                padding: 0 1.5rem;
+                overflow: hidden;
+                background: var(--axp-blue-soft);
+                color: var(--axp-text-soft);
+                transition: max-height .4s ease, padding .3s ease;
+            }
+
+            .axp-faq-box.active .axp-faq-answer {
+                max-height: 500px;
+                padding: 1.5rem;
+            }
+
+            /* RESPONSIVE */
+            @media(max-width:768px) {
+                .axp-header-row {
+                    flex-direction: column;
+                    text-align: center;
+                    gap: 1rem;
+                }
+
+                .axp-faq-grid {
+                    grid-template-columns: 1fr;
+                }
+
+                .axp-contact-flex {
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+
+            @media(max-width:480px) {
+                .axp-faq-question {
+                    padding: 1.2rem;
+                }
+            }
+        </style>
+        <div class="afqs">
+            <main class="axp-container">
+                <h2 class="axp-title">Frequently Asked Questions (FAQs)</h2>
+                <!-- Pre-Order Questions -->
+                <section>
+                    <h2 class="axp-section-title">Pre-Order Questions</h2>
+                    <div class="axp-faq-grid">
+                        <div class="axp-faq-box">
+                            <div class="axp-faq-question"><span>What payment methods do you accept?</span><i
+                                    class="fas fa-chevron-down"></i></div>
+                            <div class="axp-faq-answer">We accept Payoneer, PayPal, and major credit/debit cards. Our
+                                payment options are designed to support global clients and make ordering easy and
+                                secure.</div>
+                        </div>
+                        <div class="axp-faq-box">
+                            <div class="axp-faq-question"><span>Do you offer discounts for bulk orders?</span><i
+                                    class="fas fa-chevron-down"></i></div>
+                            <div class="axp-faq-answer">Yes, we offer special discounts on bulk orders for embroidery
+                                digitizing and vector art files. Contact our support team for a custom quote.</div>
+                        </div>
+                    </div>
+                </section>
+                <br>
+                <!-- General Questions -->
+                <section>
+                    <h2 class="axp-section-title">General Questions</h2>
+                    <div class="axp-faq-grid">
+                        <div class="axp-faq-box">
+                            <div class="axp-faq-question"><span>Is it recommended to submit my order via email?</span><i
+                                    class="fas fa-chevron-down"></i></div>
+                            <div class="axp-faq-answer">We recommend placing orders directly through our website portal
+                                for faster assignment to a skilled artist. Email submission is optional.</div>
+                        </div>
+                        <div class="axp-faq-box">
+                            <div class="axp-faq-question"><span>What are your operational hours?</span><i
+                                    class="fas fa-chevron-down"></i></div>
+                            <div class="axp-faq-answer">Our team operates 24/7, ensuring clients from all time zones
+                                receive fast responses and timely delivery.</div>
+                        </div>
+                        <div class="axp-faq-box">
+                            <div class="axp-faq-question"><span>Can you work with rough artwork or replicate a design
+                                    from a garment?</span><i class="fas fa-chevron-down"></i></div>
+                            <div class="axp-faq-answer">Absolutely! We can work with rough sketches, low-resolution
+                                images, or replicate designs from garments.</div>
+                        </div>
+                        <div class="axp-faq-box">
+                            <div class="axp-faq-question"><span>What is the process for uploading my artwork?</span><i
+                                    class="fas fa-chevron-down"></i></div>
+                            <div class="axp-faq-answer">Upload artwork through our website portal or via email. Accepted
+                                formats: JPG, PNG, PDF, EPS, AI, CDR, PSD.</div>
+                        </div>
+                        <div class="axp-faq-box">
+                            <div class="axp-faq-question"><span>How can I confirm if my artwork meets required
+                                    standards?</span><i class="fas fa-chevron-down"></i></div>
+                            <div class="axp-faq-answer">Our experts review uploaded artwork and guide you if adjustments
+                                are needed before processing.</div>
+                        </div>
+                        <div class="axp-faq-box">
+                            <div class="axp-faq-question"><span>What is the expected timeframe for completing
+                                    digitization or vector files?</span><i class="fas fa-chevron-down"></i></div>
+                            <div class="axp-faq-answer">Most standard orders are completed within 12–24 hours. Rush
+                                service is available upon request.</div>
+                        </div>
+                        <div class="axp-faq-box">
+                            <div class="axp-faq-question"><span>What file formats are accepted for artwork?</span><i
+                                    class="fas fa-chevron-down"></i></div>
+                            <div class="axp-faq-answer">We accept JPG, PNG, PDF, AI, CDR, EPS, and PSD formats for
+                                artwork submissions.</div>
+                        </div>
+                        <div class="axp-faq-box">
+                            <div class="axp-faq-question"><span>Which embroidery formats are available for
+                                    selection?</span><i class="fas fa-chevron-down"></i></div>
+                            <div class="axp-faq-answer">We provide digitized files in DST, PES, JEF, EXP, VP3, XXX, and
+                                HUS formats. Vector artwork is delivered in AI, EPS, SVG, and PDF formats.</div>
+                        </div>
+                        <div class="axp-faq-box">
+                            <div class="axp-faq-question"><span>How do you guarantee the quality of your work?</span><i
+                                    class="fas fa-chevron-down"></i></div>
+                            <div class="axp-faq-answer">Each file goes through a strict manual quality-check process to
+                                ensure your embroidery and vector files are production-ready.</div>
+                        </div>
+                        <div class="axp-faq-box">
+                            <div class="axp-faq-question">How will I be notified when my file is ready for
+                                download?<span></span><i class="fas fa-chevron-down"></i></div>
+                            <div class="axp-faq-answer">You will receive an email notification and can also download
+                                completed files directly from the client portal.</div>
+                        </div>
+                    </div>
+                    <br><br>
+                </section>
+            </main>
+            <br>
+            <script>
+                document.querySelectorAll(".axp-faq-box").forEach(box => {
+                    box.querySelector(".axp-faq-question").addEventListener("click", () => {
+                        document.querySelectorAll(".axp-faq-box").forEach(b => { if (b !== box) b.classList.remove("active"); });
+                        box.classList.toggle("active");
+                    });
+                });
+            </script>
+        </div>
+        <!-- footer-section -->
+        <footer class="footer-section">
+            <div class="footer-container">
+                <!-- ===== Column 1: About ===== -->
+                <div class="footer-column about">
+                    <h2 class="footer-logo">
+                        <img src="A P LOGO (3).png" height="52" width="230" alt="APLEX PUNCH Logo">
+                    </h2>
+                    <p class="footer-desc">
+                        APLEX PUNCH is a leading software house specializing in embroidery digitizing,
+                        vector art, and patch designing services. We combine creativity with precision
+                        to bring your artwork to life.
+                    </p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/1Bk4CpHQLk/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/saad_anwar34?igsh=dXJjNmhjNnJtdTVt"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/aplex-punch-029210399?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <!-- ===== Column 2: Quick Links ===== -->
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="afqs.html">FAQS</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- ===== Column 3: Services ===== -->
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="services.html">Embroidery Digitizing</a></li>
+                        <li><a href="services.html">Vector Art Conversion</a></li>
+                        <li><a href="services.html">Patch Designing</a></li>
+                        <li><a href="services.html">Logo Vectorization</a></li>
+                        <li><a href="services.html">Custom Artwork</a></li>
+                    </ul>
+                </div>
+                <!-- ===== Column 4: Contact Info ===== -->
+                <div class="footer-column contact-info">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> 3 Pamela Ln, Selden, NY 11784</li>
+                        <li><i class="fa-solid fa-phone"></i> 702-900-9135</li>
+                        <li><i class="fa-solid fa-envelope"></i> aplexpunch@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- ===== Bottom Bar ===== -->
+            <div class="footer-bottom">
+                <p>© 2025 APLEX PUNCH. All rights reserved.</p>
+                <button id="scrollTopBtn" title="Go to top">↑</button>
+            </div>
+        </footer>
+        <!-- ===== Footer End ===== -->
+        <!-- Font Awesome (for icons) -->
+        <script src="https://kit.fontawesome.com/a2f0e6a36b.js" crossorigin="anonymous"></script>
+        <script src="all.js/"></script>
+        <script src="script.js" defer></script>
+        <script src="all.js/Animation.js"></script>
+    </body>
+
+</html>
